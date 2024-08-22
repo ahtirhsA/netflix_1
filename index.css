@@ -1,0 +1,547 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Changed to ensure full viewport height */
+    width: 100%;
+    background-color: rgb(40, 39, 39);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.containerf{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_small.jpg");
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+background-position:center center;
+    margin-bottom:0.4rem;
+    background-color: rgb(40, 39, 39);
+}
+
+.inner-containerf{
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 50%, rgba(0,0,0,0.9) 100%);
+    height:100vh;
+    padding:25px;
+    box-sizing:border-box;
+    margin:0;
+    
+}
+.navf{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.netflix-logof{
+    fill:red;
+    width:8rem;
+}
+
+.self{
+    
+    
+    background-color:transparent;
+    color: #fff;
+    font-size:1rem;
+    outline:none;
+    box-sizing:border-box;
+    appearance:none;
+    border:none;
+    
+}
+
+.self option{
+    color:black;
+    
+}
+
+.iconf{
+    fill:white;
+}
+
+.outer-conf{
+    
+    border:none;
+    display:flex;
+  
+    align-items:flex-end;
+    margin-right:0.3rem;
+}
+.outer-con1f{
+ 
+    border:none;
+   display:flex;
+   align-items:flex-end;
+   margin-left:0.6rem;
+}
+
+.alignf{
+    display:inline-flex;
+    flex-direction:row;
+    border:1px solid #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  padding-top:0.4rem;
+  padding-bottom:0.4rem;
+    align-items:center;
+    border-radius:6px;
+    background-color:rgb(27, 27, 27);
+   
+    
+
+}
+
+.buttonf{
+    background-color:red;
+    color:white;
+    border: none;
+    border-radius:6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  padding-top:0.6rem;
+  padding-bottom:0.6rem;
+  margin-left:1.3rem;
+
+}
+
+.cmnf{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.headingf{
+    font-family:'Roboto';
+    font-size:3rem;
+    color: white;
+    font-size:600;
+}
+
+.pf{
+    font-family:'Roboto';
+    color:#fff;
+    font-size:1.6rem;
+}
+
+.h33f{
+    font-family:'Roboto';
+    color:#fff;
+    font-size:1.5rem;
+    font-weight:500;
+}
+
+.inpf{
+    
+    background-color: black;
+    opacity:0.6;
+    border-radius:5px;
+    padding:1rem;
+    width:20rem;
+    border:1.4px solid rgb(78, 77, 77);
+   
+}
+
+.inpf::placeholder{
+    font-family:'Roboto';
+    font-size:1rem;
+    color:rgb(255, 255, 255);
+}
+
+.startedf{
+    background-color:red;
+    font-size:1.2rem;
+    color:white;
+    padding: 0.8rem;
+    border:none;
+    margin-left:1rem;
+    border-radius:5px;
+   
+}
+
+.articlef{
+    text-align:center;
+}
+
+.of{
+    display: flex;
+    justify-content:center;
+}
+
+.mainf{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.second-main-container{
+    background-color: black;
+    padding:2rem;
+   margin-bottom:0.4rem;
+  height:33rem;
+    width:100%;
+   display:flex;
+}
+
+.second-page{
+    position:relative;
+    
+ 
+    padding:2rem;
+}
+
+.nob{
+   width:35rem;
+    position:absolute;
+    z-index:2;
+}
+
+.video{
+    left:6.5rem;
+    top:7rem;
+    position:absolute;
+   width:auto;
+    z-index:1;
+}
+
+.second-heading{
+    font-family:'Roboto';
+    font-size:3rem;
+    color: #fff;
+}
+
+.second-h3{
+    font-family:'Roboto';
+    font-size:1.6rem;
+    color: #fff;
+    font-weight:normal;
+}
+
+.second-content{
+    align-self:center;
+}
+
+.third-container{
+    position: relative;
+}
+
+.book{
+    height:4rem;
+    width:3rem;
+   
+    margin-right:1rem;
+}
+
+.h6{
+    font-family:'Roboto';
+    font-size:1rem;
+    color: #fff;
+    font-weight:500;
+    margin-bottom:0;
+  margin-top:1rem;
+}
+
+.p6{
+    font-family:'Roboto';
+    font-size:0.9rem;
+    color:rgb(28, 28, 222);
+    font-weight:500;
+    margin-top:0;
+}
+
+.gif{
+    background-image:url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:3rem;
+    width: 3rem;
+    align-self:center;
+    margin-left:auto;
+   
+}
+
+.third-inner{
+    display:flex;
+    flex-direction:row;
+  border:2px solid rgb(97, 95, 95);
+  border-radius:10px;
+  padding-left: 0.4rem;
+  background-color: black;
+  padding-right: 0.4rem;
+  padding-top:0.7rem;
+  padding-bottom:0.7rem;
+  width:25rem;
+  box-sizing:border-box;
+  position:absolute;
+  top:23rem;
+  left:8rem;
+  z-index:2;
+}
+
+.x{
+    align-self:center;
+}
+.y{
+    position: absolute;
+z-index:1;
+}
+
+.three{
+    height:100vh;
+    background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   padding-right: 2rem;
+   box-sizing:border-box;
+   margin-bottom:0.4rem;
+
+}
+
+.ah1{
+    font-family:'Roboto';
+    font-size: 3.7rem;
+    
+    color:white;
+}
+
+.ap1{
+    font-family:'Roboto';
+    font-size: 1.5rem;
+    color:white;
+    font-weight: normal;
+}
+
+
+.aa{
+ margin-top:6rem;
+}
+
+.four{
+    height:80vh;
+    padding:2rem;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    margin-bottom:0.4rem;
+}
+
+.forth-container{
+    position:relative;
+
+    
+}
+
+.fim{
+      position:absolute;
+      top:0;
+      left:0;
+      z-index: 2;
+}
+
+.forInn{
+   margin-top:6rem;
+   box-sizing:border-box;
+}
+
+
+
+.fvideo{
+   position:absolute;
+   z-index:1;
+  left:7rem;
+  top:3.2rem;
+  width:26rem;
+}
+
+
+.frheading{
+    font-family:'Roboto';
+    font-size:3rem;
+    color:white;
+    
+}
+
+.frh3{
+    font-family:'Roboto';
+    font-size:1.5rem;
+    color:white;
+    font-weight:normal;
+    margin-top:0;
+}
+
+.five{
+    background-color:black;
+    padding:2rem;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:0.4rem;
+}
+
+.fiveim{
+    width:38rem;
+}
+
+
+.fiveheading{
+    font-family:'Roboto';
+    font-size:3rem;
+    color:white;
+    
+}
+
+.fvrh3{
+    font-family:'Roboto';
+    font-size:1.5rem;
+    color:white;
+    font-weight:normal;
+    margin-top:0;
+}
+
+.six{
+    background-color:black;
+    padding:5rem;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:0.4rem;
+}
+
+.sixheading{
+    font-family:'Roboto';
+    font-size: 3.5rem;
+    font-weight:bold;
+    margin-bottom:3rem;
+    margin-top:0;
+    color:#fff;
+   text-align:center;
+}
+
+.nfp{
+    color: #fff;
+    font-size:1.5rem;
+    font-weight:600;
+margin-top:0.2rem;
+}
+
+.icon{
+    transform:scale(1.0);
+    font-weight:bold;
+}
+
+.ul{
+    list-style-type:none;
+}
+
+.li{
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(41, 41, 41);
+    justify-content:space-between;
+    align-items:center;
+    padding:1.3rem;
+    margin-bottom:0.7rem;
+}
+
+.li:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+.list_p{
+    font-family:'Roboto';
+    font-size:1.5rem;
+    text-align:center;
+    color:white;
+
+}
+
+.inp1{
+    
+    background-color: black;
+    opacity:0.6;
+    border-radius:5px;
+    padding:1rem;
+    width:33rem;
+    border:1.4px solid rgb(78, 77, 77);
+   
+}
+
+
+.inp1::placeholder{
+    font-family:'Roboto';
+    font-size:1.1rem;
+    font-weight:normal;
+    color:rgb(241, 234, 234);
+}
+
+
+
+
+.started1{
+    background-color:red;
+    font-size:1.2rem;
+    color:white;
+    padding: 0.8rem;
+    width:10rem;
+    border:none;
+    margin-left:1rem;
+    border-radius:5px;
+}
+
+
+.o1{
+    display: flex;
+    justify-content:center;
+}
+
+
+.footer{
+    background-color:black;
+    padding:5rem;
+    height:auto;
+}
+
+.footp{
+    color: #fff;
+    font-size:1.2rem;
+    margin-top:0;
+    margin-bottom: 3rem;
+}
+
+.anc{
+    color:#fff;
+}
+
+.ful{
+    padding-left:0;
+    width:100%;
+    list-style-type:none;
+}
+
+.footlis{
+    margin-bottom: 1rem;
+}
+
+.fotli{
+
+    color:#fff;
+    font-size:1.2rem;
+}
+
+.footcontainer{
+display: flex;
+flex-direction:row;
+justify-content:space-evenly;
+align-items:flex-start;
+}
+
+.fspan{
+    color:rgb(163, 160, 160);
+    font-family:'Bree-Serif';
+    font-size: 1.3rem;
+    font-weight:bold;
+}
